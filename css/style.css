@@ -49,12 +49,21 @@ a {
     margin-right: 95px;
 }
 
+.clearfix {
+    clear: both;
+}
+
 /* IMAGE */
 .img {
     margin-top: 77px;
 }
 
 /* Contant */
+.contant {
+    max-width: 1061px;
+    margin: 0 auto; 
+}
+
 .text{
     color: #b4ad9e;
     font-family: 'Ubuntu', 'sans-serif';
@@ -109,7 +118,11 @@ a {
 .footer{
     margin-top: 112px;
     background-color: #f0f0f0;
-    height: 97px;
+}
+
+.container {
+    max-width: 1063px;
+    margin: 0 auto;
 }
 
 .footer_nav {
@@ -132,7 +145,6 @@ a {
 
 .social {
     float: right;
-    margin-right: 71px;
     font-family: "Playfair Display";
     font-size: 14px;
     line-height: 24px;
@@ -141,3 +153,4 @@ a {
 .social_item{
    margin-left: 17px;
 }
+
